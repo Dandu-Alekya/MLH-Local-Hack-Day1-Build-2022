@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!--CSS file-->
+    <link rel="stylesheet" href="style.css">
+    <!--Free icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Javascript file-->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="help">
+        <p>This is a countdown timer</p>
+        <p>Enter your preffered time:<input name="text" type="number" id="text"></p>
+    </div>
+    <div class="timer">
+        <p id="timer">00:00</p>
+    </div>
+    <div id="controls">
+        <button id="start1">
+            <i class="fas fa-play-circle"></i>
+        </button>
+        <button id="stop1">
+            <i class="fas fa-pause-circle"></i>
+        </button>
+        <button id="reset1">
+            <i class="fas fa-redo"></i>
+        </button>
+      </div>
+    <div class="help">
+        <p>This is a normal stopwatch</p>
+    </div>
+    <div class="stopwatch" id="stopwatch">
+        <span id="hours">00:</span>
+        <span id="mins">00:</span>
+        <span id="seconds">00</span>  
+      </div>
+      <div id="controls">
+        <button id="start">
+            <i class="fas fa-play-circle"></i>
+        </button>
+        <button id="stop">
+            <i class="fas fa-pause-circle"></i>
+        </button>
+        <button id="reset">
+            <i class="fas fa-redo"></i>
+        </button>
+      </div>
+      <div class="footer">
+          <p>Made by <a href="https://github.com/Dandu-Alekya">Alekya Dandu</a></p>
+      </div>
+</body>
+</html>

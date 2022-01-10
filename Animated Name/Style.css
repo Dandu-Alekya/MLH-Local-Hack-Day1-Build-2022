@@ -7,7 +7,7 @@ padding: 0;
   
 .Name{
 font-weight: 800;
-font-size: 50px;
+font-size: 100px;
 position: absolute;
 top: 50%;
 left: 50%;
@@ -16,7 +16,7 @@ transform: translate(-50%,-50%);
 color: #000;
 background: linear-gradient(to right, #000000 0, #fadb97 10%, #000 30%);
 background-position: 0;
-animation: shine 4s infinite linear;
+animation: shine 3s infinite linear;
 animation-fill-mode: forwards;
 -webkit-text-size-adjust: none;
 -webkit-background-clip: text;
@@ -29,9 +29,9 @@ white-space: nowrap;
   background-position: 0;
 }
 60%{
-  background-position: 390px;
+  background-position: 690px;
 }
 100%{
-  background-position: 390px;
+  background-position: 690px;
 }
 }

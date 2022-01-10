@@ -1,0 +1,75 @@
+body{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3025;
+    gap:10px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .stopwatch,.timer{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 20px 24px;
+    border-radius: 20px;
+    background-color:#d6ae89;
+    color: #3f3025;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #timer{
+    padding: 0;
+    margin: 0;
+  }
+  #controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #controls button {
+    background-color: #d6ae89;
+    color: #3f3025;
+    width: 80px;
+    height: 80px;
+    font-size:40px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  #controls button:hover{
+    color: #d6ae89;
+    background-color: #3f3025;
+  }
+
+  input[type='number']{
+    padding-left: 5px;
+    width: 40px;
+} 
+  .help{
+    font-family: 'Cedarville Cursive', cursive;
+    color: #d6ae89;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+a{
+    text-decoration: none;
+    color: #f7e3d0;
+}
+
+a:hover{
+    font-size:18px;
+    color: #d6ae89;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  color:#f7e3d0;
+  font-size: 15px;
+}
+  
