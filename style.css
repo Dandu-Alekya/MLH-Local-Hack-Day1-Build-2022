@@ -1,0 +1,29 @@
+body{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3025;
+    color: #d6ae89;
+    gap:10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.box{
+    display: inline-block;
+    padding: 20px 24px;
+    border-radius: 20px;
+    background-color:#d6ae89;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  a{
+    text-decoration: none;
+    color: #3f3025;
+}
+a:hover{
+    font-size:30px;
+    color: #745743;
+}
